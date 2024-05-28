@@ -1,0 +1,84 @@
+@import @/styles/helpers
+    
+.loader
+    position: fixed
+    inset: 0
+    z-index: 999
+    display: flex
+    background: $s1
+    transition: opacity .4s
+    &.hidden
+        opacity: 0
+        pointer-events: none
+    &:before,
+    &:after
+        content: ""
+        position: absolute
+        z-index: 2
+        pointer-events: none
+    &:before
+        top: 0
+        left: calc(50% - 282px)
+        width: 564px
+        height: 100%
+        border: solid $s2
+        border-width: 0 2px
+        +m
+            left: calc(50% - 141px)
+            width: 282px
+    &:after
+        top: calc(50% - 177px)
+        left: 0
+        width: 100%
+        height: 354px
+        border: solid $s2
+        border-width: 2px 0
+        +m
+            top: calc(50% - 88px)
+            height: 176px
+
+.logo
+    position: relative
+    width: 324px
+    margin: auto
+    pointer-events: none
+    +m
+        width: 162px
+    &:before
+        content: ""
+        position: absolute
+        top: calc(50% - 160px)
+        left: calc(50% - 160px)
+        width: 320px
+        height: 320px
+        background: rgba($s4, 0.5)
+        filter: blur(200px)
+        transform: translate3d(0, 0, 0)
+        +m
+            top: calc(50% - 80px)
+            left: calc(50% - 80px)
+            width: 160px
+            height: 160px
+            filter: blur(100px)
+    svg
+        position: relative
+        z-index: 2
+        display: block
+        width: 100%
+
+.circle
+    position: absolute
+    right: 48px
+    bottom: 48px
+    width: 32px
+    height: 32px
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAq1BMVEUAAAAuav8uav8tav8taP8taP8taP8taP8taP8taP8uaP8taP8taP8taP8taP8taP8taP8taP8taP8taP8taP8uaP8taf8taP8taP8taP8taP8taP8uaP8taP8taP8uaP8taP8taf8taP8taP8uaf8taP8uaP8taP8taP8taP8taP8taP8uaP8taP8taf8taP8taP8taP8uaP8taP8taP8taP8taP8taP8taP//mrn8AAAAOXRSTlMACwUQXVPHt05YO828i3NAbkXCkIEfFNmxhiN8L5lJJ3hi5qk2lBjy3iuhahzRnTOl7mb26uL7rdUZeLXlAAADR0lEQVRYw52R23qaQBRGtwwooAgGMagIeKIxohCbtnn/J+ueQ2fgM8jYpV7pWvwzQhckmVnmbToNAtNJq9UAniKaBes8z6dIEATn8+12s/xC1zb86XyNYEEEaGG73VpaO4zZeo40A8I3TdNKehPufLlcdgQQx1491MnZWzYC0/uA46QPRvhLz6MFeQYRwDsUPmJ1j7DCkAbaE/gdqgEWkn3vmyEGkO6AwwO2nXzn58dj2JwgAvIKpI8B2733TerLwn1AHcBG0rsN9uaIqEO0A2KA8tM0a/uzzUYV1ITgZlpmO2CLwCxq+otwwwviEDSQzxIivo18q+mn1J/5A1B41+tGbaCBbQQtVrY4gPCRCiTulSISNJCvQKIS0p8x/FIewHt/ZwGETbAN+AYjkc9nvu8awLHeEbUhTKGDDH2pI9G/G3xn/CscoJNS+D7DPfAJfl3XjYQND8iU7yJ8wrGmhVoUHHhIJh9PqQA57ff7mkEL3gAeYrjSRg4EAM57WtiLggs9EKkfEHoGb89hiRB6SaSOJACLP4hs+NALQVlQVZUBB/Rl4wgaCBl1ZAFOHMeycQYNIrQFSVJCHjN45gAaLLjLiSCMVSGOQAMjaZDBdTRSCdDixNTT6YSfDEaK+ApaZKcGGFB4oMVK6Vk7cAQtoqwBBiajiaDWXNAK1BNFrBmQZKsINo3AS6HjG9FKUcKcivRFSUGDQURZ4RspIHhpEIAGpEQiAYFU2sPhcAIaLNCXjQEUwuZUGldQFEVZFqJhAOxRFozHG40TLBYFBwv01gPlI1XvgAUiEwQAKmUjI9L3HxBCVMMAJFb+5XLJewbQgCjgCyg3NLmOfH0FPQEs8AQy4KMmDf319dXqCagEMUBOuAgfeQseBViBn4MMgDN4aflvv+bkQUBtUL8ymS18DPwaOp0BVuANAyRX9njp73a7sdNTQEBRDJs+Bj4/Py6b6HEBmpgtnwU+fuzWHQFWMKBFfu//+PnT694gfMUSfUT4IvB73VWAe+q39gAW+O2DPp7yVeAKTxCwA4gBIvAGz7D92okB4goQeIpyiAHui8AHPIkz/mwFJvAs5XQsrpAFTHie0rnIQAj/h3scsoAH/09kr00C/fwFL7i9gJp6VgEAAAAASUVORK5CYII=)
+    background-size: contain
+    animation: loader 2s infinite linear
+    +m
+        right: 24px
+        bottom: 24px
+
+@keyframes loader
+    100%
+        transform: rotate(-360deg)

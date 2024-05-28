@@ -1,0 +1,107 @@
+@import @/styles/helpers
+
+.button,
+.inner
+    position: relative
+    overflow: hidden
+    &:before
+        content: ""
+        position: absolute
+        inset: 0
+        opacity: 0
+        transition: opacity .4s
+
+.button
+    padding: 2px
+    background: $g5
+    border-radius: 16px
+    box-shadow: 0px 16px 24px rgba(black, .25), 0px -14px 48px rgba(#28336f, .7)
+    &:hover
+        &:before,
+        .inner:before
+            opacity: 1
+        .glows
+            &:before,
+            &:after
+                opacity: .4
+            &:before
+                left: 16px
+            &:after
+                left: calc(66% - 16px)
+    &:before
+        background: $g4
+    &:after
+        content: ""
+        position: absolute
+        top: calc(50% - 11px)
+        left: 0
+        width: 8px
+        height: 22px
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='22'%3E%3Cpath fill='%232ef2ff' d='M2 0H0v4 14 4h2v-5.75l5.14-4.498a1 1 0 0 0 0-1.505L2 5.75V0z'/%3E%3C/svg%3E")
+
+.inner
+    display: flex
+    align-items: center
+    height: 60px
+    padding: 0 18px
+    background: $g4
+    border-radius: 14px
+    &:before
+        background: $g7
+
+.icon
+    position: relative
+    z-index: 2
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 42px
+    height: 42px
+    margin: 0 20px 0 -9px
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='42'%3E%3Cpath fill='%232ef2ff' fill-rule='evenodd' d='M31 2H11a8.96 8.96 0 0 0-5.618 1.968l9.289 9.289A9.96 9.96 0 0 1 21 11a9.96 9.96 0 0 1 6.329 2.257l9.289-9.289A8.96 8.96 0 0 0 31 2zm-5.094 12.68C24.551 13.627 22.849 13 21 13s-3.551.627-4.906 1.68L21 19.586l4.906-4.906zm-12.649-.009L3.968 5.382A8.96 8.96 0 0 0 2 11v20a8.96 8.96 0 0 0 1.968 5.618l9.289-9.289A9.96 9.96 0 0 1 11 21a9.96 9.96 0 0 1 2.257-6.329zm1.423 11.234C13.627 24.551 13 22.849 13 21s.627-3.551 1.68-4.906L19.586 21l-4.906 4.906zm-.009 2.837l-9.289 9.289A8.96 8.96 0 0 0 11 40h20a8.96 8.96 0 0 0 5.618-1.968l-9.289-9.289A9.96 9.96 0 0 1 21 31a9.96 9.96 0 0 1-6.329-2.257zm11.234-1.423C24.551 28.373 22.849 29 21 29s-3.551-.627-4.906-1.68L21 22.414l4.906 4.906zm1.414-1.414L22.414 21l4.906-4.906C28.373 17.449 29 19.151 29 21s-.627 3.551-1.68 4.906zm1.423 1.423A9.96 9.96 0 0 0 31 21a9.96 9.96 0 0 0-2.257-6.329l9.289-9.289A8.96 8.96 0 0 1 40 11v20a8.96 8.96 0 0 1-1.968 5.618l-9.289-9.289zM11 0C4.925 0 0 4.925 0 11v20c0 6.075 4.925 11 11 11h20c6.075 0 11-4.925 11-11V11c0-6.075-4.925-11-11-11H11z' opacity='.05'/%3E%3C/svg%3E")
+    svg
+        fill: $p4
+
+.title
+    position: relative
+    z-index: 2
+    font-family: $poppins
+    +base-bold
+    color: $p1
+    text-transform: uppercase
+
+.glows
+    &:before,
+    &:after
+        content: ""
+        position: absolute
+        z-index: 4
+        height: 2px
+        background: $g8
+        opacity: 0
+        transition: left .4s, opacity .4s
+    &:before
+        top: 0
+        left: calc(40% - 16px)
+        width: 60%
+    &:after
+        bottom: 0
+        left: 16px
+        width: 34%
+
+.themeBlue,
+.themeGreen
+    .title
+        color: $p4
+
+.themeBlue
+    .icon
+        svg
+            fill: $p1
+
+.themeGreen
+    &:after
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='22'%3E%3Cpath fill='%23C8EA80' d='M2 0H0v4 14 4h2v-5.75l5.14-4.498a1 1 0 0 0 0-1.505L2 5.75V0z'/%3E%3C/svg%3E")
+    .icon
+        svg
+            fill: $p3

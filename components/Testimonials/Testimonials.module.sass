@@ -1,0 +1,107 @@
+@import @/styles/helpers
+
+.testimonials
+    position: relative
+    z-index: 2
+    padding: 156px 0
+    +t
+        padding-top: 116px
+    +m
+        padding: 98px 0
+
+.container
+    display: flex
+    +t
+        display: block
+
+.head
+    position: relative
+    z-index: 2
+    flex: 0 0 300px
+    margin-right: 76px
+    +w
+        margin-right: 24px
+    +d
+        margin-right: 12px
+    +t
+        max-width: 300px
+        margin: 0 auto 144px
+        text-align: center
+    +m
+        max-width: 200px
+        margin-bottom: 92px
+
+.caption
+    margin-bottom: 18px
+    +m
+        margin-bottom: 10px
+
+.title
+    +h3
+    color: $p4
+    +m
+        +h5
+
+.inner
+    position: relative
+    display: flex
+    align-items: flex-start
+    margin: -48px -12px -46px 0
+    +t
+        position: static
+        margin-right: 0
+    +m
+        display: block
+    &:before,
+    &:after
+        content: ""
+        position: absolute
+        left: calc(50% - 1px)
+        width: 2px
+        pointer-events: none
+        +m
+            display: none
+    &:before
+        top: -108px
+        height: calc(100% + 218px)
+        background: $s2
+        +t
+            top: 0
+            height: 100%
+    &:after
+        bottom: -206px
+        height: 96px
+        background: $s5
+        +t
+            bottom: -96px
+
+.group
+    flex: 0 0 50%
+    &:first-child
+        &:after
+            content: ""
+            position: absolute
+            left: calc(50% - 5px)
+            bottom: -212px
+            z-index: 2
+            width: 10px
+            height: 10px
+            background: $s1
+            border: 2px solid $s5
+            border-radius: 50%
+            pointer-events: none
+            +t
+                bottom: -102px
+            +m
+                display: none
+
+.item
+    &:after
+        right: auto
+        left: 0
+        +m
+            left: -16px
+    &:last-child
+        &:after
+            +m
+                display: none

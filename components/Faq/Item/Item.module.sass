@@ -1,0 +1,121 @@
+@import @/styles/helpers
+
+.item
+    position: relative
+    z-index: 2
+    &:not(:last-child)
+        margin-bottom: 66px
+        +t
+            margin-bottom: 44px
+        +m
+            margin-bottom: 30px
+    &.active
+        .title
+            +t
+                color: $p1
+        .icon
+            &:before,
+            &:after
+                background: $p1
+            &:after
+                transform: rotate(0)
+        .substrate
+            opacity: 1
+
+.question
+    position: relative
+    padding-right: 112px
+    cursor: pointer
+    +m
+        padding-right: 72px
+    &:hover
+        &:after
+            border-color: $s4
+    &:after
+        content: ""
+        position: absolute
+        top: calc(50% - 24px)
+        right: 0
+        width: 48px
+        height: 48px
+        border: 2px solid $s2
+        border-radius: 50%
+        transition: border-color .4s
+        +m
+            top: 10px
+
+.number
+    margin-bottom: 6px
+    +hairline-compact
+    color: $p3
+    +t
+        display: none
+
+.title
+    +h6
+    color: $p4
+    transition: color .4s
+    +m
+        display: flex
+        align-items: center
+        min-height: 72px
+
+.icon
+    position: absolute
+    top: calc(50% - 20px)
+    right: 4px
+    z-index: 2
+    width: 40px
+    height: 40px
+    background: $g4
+    box-shadow: 0px 4px 4px rgba(black, .25), 0px 16px 24px rgba(black, .25), inset 0px 3px 6px $s4
+    border-radius: 50%
+    +m
+        top: 14px
+    &:before,
+    &:after
+        content: ""
+        position: absolute
+        top: 19px
+        left: 14px
+        width: 12px
+        height: 2px
+        background: $p3
+        transition: background .4s, transform .4s
+    &:after
+        transform: rotate(90deg)
+
+.answer
+    padding-top: 14px
+    +body-3
+    +m
+        padding-right: 56px
+
+.substrate
+    position: absolute
+    top: -30px
+    left: -32px
+    right: -32px
+    bottom: -24px
+    z-index: -1
+    background: $g5
+    border-radius: 24px
+    opacity: 0
+    transition: opacity .5s
+    +t
+        display: none
+    &:before
+        content: ""
+        position: absolute
+        z-index: -1
+        inset: 2px
+        background: $g4
+        border-radius: 22px
+    &:after
+        content: ""
+        position: absolute
+        top: 0
+        left: 32px
+        width: 120px
+        height: 2px
+        background: $p1
