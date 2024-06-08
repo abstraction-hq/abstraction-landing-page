@@ -24,7 +24,7 @@ export default function Slider() {
                                         <div className="slider-item">
                                             <div className="tf-slider-item style-3">
                                                 <div className="content-inner">
-                                                    <h1 className="heading mb0">WITH
+                                                    <h1 className="heading mb0">With
                                                         <span className="animationtext clip">
                                                             <TypeAnimation
                                                                 sequence={[
@@ -38,13 +38,13 @@ export default function Slider() {
                                                                 ]}
                                                                 wrapper="span"
                                                                 speed={50}
-                                                                style={{ display: 'inline-block', marginLeft: "15px" }}
+                                                                style={{fontSize: 70, display: 'inline-block', marginLeft: "15px" }}
                                                                 repeat={Infinity}
                                                                 className="cd-words-wrapper ms-3">
                                                             </TypeAnimation>
                                                         </span>
                                                     </h1>
-                                                    <h1 className="heading"> EXPLORE NFT COLLECTION </h1>
+                                                    <h1 className="heading"> Explore NFT Collection </h1>
                                                     <p className="sub-heading">We are the best way to check the rarity of
                                                         NFT collection</p>
                                                     <div className="counter-wrap">

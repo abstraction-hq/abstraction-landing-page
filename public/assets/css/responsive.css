@@ -7,6 +7,7 @@
   }
   .tf-slider-item .content-inner {
     margin-right: 30px;
+    margin-left: 60px;
   }
   .tf-slider-item .image img {
     width: 45%;
@@ -15,7 +16,7 @@
     display: none;
   }
   .tf-slider-item.style-3 {
-    padding-top: 100px;
+    padding-top: 80px;
   }
   .tf-slider-item.style-3 .content-inner {
     padding-top: 0;
