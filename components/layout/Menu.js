@@ -18,18 +18,6 @@ export default function Menu() {
     return (
         <>
             <ul id="menu-primary-menu" className="menu">
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/home2", "/home3"])}`}>
-                    <Link href="#">HOME</Link>
-                    <ul className="sub-menu">
-                        <li className={`menu-item ${checkCurrentMenuItem("/")}`}>
-                            <Link href="/">HOME 1</Link>
-                        </li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/home2")}`}>
-                            <Link href="/home2">HOME 2</Link></li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/home3")}`}>
-                            <Link href="/home3">HOME 3</Link></li>
-                    </ul>
-                </li>
                 <li className={`menu-item menu-item-has-children ${checkParentActive(["/about1", "/about2"])}`}>
                     <Link href="#">ABOUT</Link>
                     <ul className="sub-menu">
@@ -44,10 +32,6 @@ export default function Menu() {
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/roadmap-1")}`}>
                             <Link href="/roadmap-1">ROAD MAP 1</Link></li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/roadmap-2")}`}>
-                            <Link href="/roadmap-2">ROAD MAP 2</Link></li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/roadmap-3")}`}>
-                            <Link href="/roadmap-3">ROAD MAP 3</Link></li>
                     </ul>
                 </li>
                 <li className={`menu-item menu-item-has-children ${checkParentActive(["/sign-in",
@@ -68,8 +52,6 @@ export default function Menu() {
                             <Link href="/sign-up">SIGN UP</Link></li>
                         <li className={`menu-item ${checkCurrentMenuItem("/faq1")}`}>
                             <Link href="/faq1">FAQ 1</Link></li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/faq2")}`}>
-                            <Link href="/faq2">FAQ 2</Link></li>
                         <li className={`menu-item ${checkCurrentMenuItem("/team")}`}>
                             <Link href="/team">OUR TEAM</Link></li>
                         <li className={`menu-item ${checkCurrentMenuItem("/collection")}`}>
