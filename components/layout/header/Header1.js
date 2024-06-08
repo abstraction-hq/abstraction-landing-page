@@ -9,7 +9,6 @@ const ThemeSwitch = dynamic(() => import('@/components/elements/ThemeSwitch'), {
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handleModal }) {
     return (
         <>
-
             <header className={`header ${scroll ? "is-fixed is-small" : ""}`}>
                 <div className="tf-container">
                     <div className="row">

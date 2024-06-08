@@ -1004,7 +1004,7 @@ a:focus {
 -------------------------------------------------------------- */
 :root {
     /* color */
-    --background-body: #EEEEEE;
+    --background-body: #060d0d;
     --primary-color: #41454A;
     --primary-color2: #888B8E;
     --primary-color3: #141B22;
@@ -1059,7 +1059,7 @@ a:focus {
 }
 
 .is_dark {
-    --background-body: #040B11;
+    --background-body: #060d0d;
     --primary-color: #C2C3C5;
     --primary-color2: #C2C3C5;
     --primary-color3: #fff;

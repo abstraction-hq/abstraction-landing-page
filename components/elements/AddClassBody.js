@@ -22,7 +22,7 @@ export default function AddClassBody() {
             else if (pathname === '/home3') {
                 bodyElement.classList.add('counter-scroll')
             }
-            else if (pathname === '/about1') {
+            else if (pathname === '/about') {
                 bodyElement.classList.add('team-page','counter-scroll')
             }
             else if (pathname === '/about2') {

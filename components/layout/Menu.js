@@ -18,14 +18,9 @@ export default function Menu() {
     return (
         <>
             <ul id="menu-primary-menu" className="menu">
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/about1", "/about2"])}`}>
-                    <Link href="#">ABOUT</Link>
-                    <ul className="sub-menu">
-                        <li className={`menu-item ${checkCurrentMenuItem("/about1")}`}>
-                            <Link href="/about1">ABOUT 1</Link></li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/about2")}`}>
-                            <Link href="/about2">ABOUT 2</Link></li>
-                    </ul>
+                <li className={`menu-item ${pathname === "/about" ? "current-menu-item" : ""}`}>
+
+                    <Link href="/about">About</Link>
                 </li>
                 <li className={`menu-item menu-item-has-children ${checkParentActive(["/roadmap-1", "/roadmap-2", "/roadmap-3"])}`}>
                     <Link href="#">ROAD MAP</Link>
