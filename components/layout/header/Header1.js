@@ -33,7 +33,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
                                     <ThemeSwitch />
                                     {/*<Link href="/contact" className="tf-button discord"><i className="icon-fl-vt" /><span>DISCORD</span></Link>*/}
                                     <a onClick={handleModal} className="tf-button connect" data-toggle="modal" data-target="#popup_bid">
-                                        <i className="icon-fl-wallet" /><span>Connect</span></a>
+                                        <span>Connect</span></a>
                                 </div>
                                 <div className="d-block d-lg-none">
                                     <div className={`mobile-button d-block ${isMobileMenu ? "active" : ""}`} onClick={handleMobileMenu}><span /></div>{/* /.mobile-button */}
