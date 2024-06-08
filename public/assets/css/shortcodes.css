@@ -1,9 +1,9 @@
-/* 
+/*
 
-   * Button 
+   * Button
 
 */
-/* button 
+/* button
 --------------------------------------------------*/
 .tf-button {
     display: inline-block;
@@ -122,7 +122,7 @@
     text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.4);
 }
 
-/* product 
+/* product
 --------------------------------------------------*/
 .tf-product {
     background: var(--primary-color23);
@@ -232,7 +232,7 @@
     opacity: 1;
 }
 
-/* team 
+/* team
 --------------------------------------------------*/
 .tf-team {
     text-align: center;
@@ -364,7 +364,7 @@
     opacity: 1;
 }
 
-/* work 
+/* work
 --------------------------------------------------*/
 .tf-work {
     background: var(--primary-color8);
@@ -617,7 +617,7 @@
     color: #C2C3C5;
 }
 
-/* Contact 
+/* Contact
 --------------------------------------------------*/
 .tf-infor-wrap {
     display: flex;
@@ -718,7 +718,7 @@
     color: var(--primary-color3);
 }
 
-/* Live Auction 
+/* Live Auction
 --------------------------------------------------*/
 .filter-menu {
     display: flex;
@@ -921,7 +921,7 @@
     justify-content: left;
 }
 
-/* Item Details 
+/* Item Details
 --------------------------------------------------*/
 .tf-item-detail {
     padding: 100px 0;
@@ -1887,6 +1887,13 @@
 .tf-slider-item.style-3 .image .img {
     position: relative;
     z-index: 2;
+}
+
+.tf-slider-item.style-3 .image .img-feature {
+    position: relative;
+    z-index: 2;
+    width: 258px;
+    margin-left: 300px;
 }
 
 .tf-slider-item.style-3 .image .img-1,

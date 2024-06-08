@@ -1,13 +1,13 @@
-/* 
+/*
 
-   * Button 
+   * Button
 
 */
 
 @use './abstracts/' as *;
 
 
-/* button 
+/* button
 --------------------------------------------------*/
 .tf-button {
     display: inline-block;
@@ -125,7 +125,7 @@
 }
 
 
-/* product 
+/* product
 --------------------------------------------------*/
 .tf-product {
     background: var(--primary-color23);
@@ -220,7 +220,7 @@
     }
 }
 
-/* team 
+/* team
 --------------------------------------------------*/
 .tf-team {
     text-align: center;
@@ -333,7 +333,7 @@
     }
 }
 
-/* work 
+/* work
 --------------------------------------------------*/
 .tf-work {
     background: var(--primary-color8);
@@ -577,7 +577,7 @@
 }
 
 
-/* Contact 
+/* Contact
 --------------------------------------------------*/
 .tf-infor-wrap {
     @include flexitem;
@@ -672,7 +672,7 @@
     }
 }
 
-/* Live Auction 
+/* Live Auction
 --------------------------------------------------*/
 
 .filter-menu {
@@ -832,7 +832,7 @@
 }
 
 
-/* Item Details 
+/* Item Details
 --------------------------------------------------*/
 .tf-item-detail {
     padding: 100px 0;
@@ -1786,6 +1786,13 @@
             .img {
                 position: relative;
                 z-index: 2;
+            }
+
+            .img-feature {
+                position: relative;
+                z-index: 2;
+                width: 258px;
+                margin-left: 300px;
             }
 
             .img-1,

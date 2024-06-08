@@ -29,11 +29,11 @@ export default function Slider() {
                                                             <TypeAnimation
                                                                 sequence={[
                                                                     // Same substring at the start will only be typed out once, initially
-                                                                    ' BINABOX',
+                                                                    ' Abstraction',
                                                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                                                    ' NFTBOX',
+                                                                    ' Abs Wallet',
                                                                     1000,
-                                                                    ' BOXNFT',
+                                                                    ' Abs NFT',
                                                                     1000,
                                                                 ]}
                                                                 wrapper="span"
@@ -68,7 +68,7 @@ export default function Slider() {
                                                     </div>
                                                 </div>
                                                 <div className="image">
-                                                    <img src="/assets/images/slider/slider-8.png" alt="Image" className="img ani5" />
+                                                    <img src="/assets/images/slider/slider-9.png" alt="Image" className="img-feature ani5" />
                                                     <img src="/assets/images/slider/slider-7.png" alt="Image" className="ani4 img-1" />
                                                     <img src="/assets/images/slider/slider-6.png" alt="Image" className="ani5 img-2" />
                                                 </div>
@@ -84,11 +84,11 @@ export default function Slider() {
                                                             <TypeAnimation
                                                                 sequence={[
                                                                     // Same substring at the start will only be typed out once, initially
-                                                                    ' BINABOX',
+                                                                    ' Abstraction',
                                                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                                                    ' NFTBOX',
+                                                                    ' Abs Wallet',
                                                                     1000,
-                                                                    ' BOXNFT',
+                                                                    ' Abs NFT',
                                                                     1000,
                                                                 ]}
                                                                 wrapper="span"
@@ -123,7 +123,7 @@ export default function Slider() {
                                                     </div>
                                                 </div>
                                                 <div className="image">
-                                                    <img src="/assets/images/slider/slider-8.png" alt="Image" className="img ani5" />
+                                                    <img src="/assets/images/slider/slider-9.png" alt="Image" className="img-feature ani5" />
                                                     <img src="/assets/images/slider/slider-7.png" alt="Image" className="ani4 img-1" />
                                                     <img src="/assets/images/slider/slider-6.png" alt="Image" className="ani5 img-2" />
                                                 </div>
