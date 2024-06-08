@@ -33,7 +33,7 @@ export default function Slider() {
                                                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                                                                     ' Abs Wallet',
                                                                     1000,
-                                                                    ' Abs NFT',
+                                                                    ' Abs Researcher',
                                                                     1000,
                                                                 ]}
                                                                 wrapper="span"
