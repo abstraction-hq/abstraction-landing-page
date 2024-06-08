@@ -98,6 +98,7 @@
   }
   header #site-header-inner .header-right .tf-button.connect {
     display: none;
+    border-radius: 20px;
   }
 }
 
@@ -124,7 +125,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    
+
   .tf-roadmap-style-thumb .content-rm-thumb {
       padding: 30px;
   }
@@ -135,7 +136,7 @@
     margin-left: 30px;
   }
 }
-  
+
 @media only screen and (max-width: 991px) {
   .tf-slider-item {
     padding-top: 0;
@@ -220,7 +221,7 @@
   }
 
 }
-@media only screen and (max-width: 830px) { 
+@media only screen and (max-width: 830px) {
   .tf-slider-item.style-3 .image,
   .tf-slider-item .image {
     display: none;
@@ -284,7 +285,7 @@
     padding-bottom: 70px !important;
   }
   .tf-roadmap .sl-roadmap {
-    padding-bottom: 0px; 
+    padding-bottom: 0px;
   }
 
   .team-page .tf-partner-sec,
@@ -385,7 +386,7 @@
     letter-spacing: 0;
   }
   .countdown .countdown__item {
-    margin-right: 13px; 
+    margin-right: 13px;
     .countdown__value {
       width: 80px;
       height: 80px;

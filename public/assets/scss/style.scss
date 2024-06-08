@@ -15,7 +15,7 @@
 @import "font-awesome.css";
 @import "binasea.css";
 @import "swiper-bundle.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import "bootstrap.css";
 
@@ -675,7 +675,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    font-family: 'Bakbak One';
+    font-family: 'Euclid Circular B Semibold';
     font-size: 16px;
     line-height: 24px;
     background-color: #21E786;
@@ -731,7 +731,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--bakbak), sans-serif;
+    font-family: var(--notosans), sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
@@ -814,6 +814,7 @@ label.error {
     width: 48px;
     height: 48px;
     background-color: var(--primary-color5);
+    border-radius: 20px;
     color: #141B22;
     display: flex;
     align-items: center;
@@ -1056,7 +1057,7 @@ a {
     --bg-section2: unset;
     --bg-section3: transparent;
     --poppins: 'Poppins', sans-serif;
-    --bakbak: "Bakbak One"
+    --notosans: "Noto Sans"
 }
 
 .is_dark {
@@ -1178,8 +1179,10 @@ header {
 
                 &.connect {
                     background-color: var(--primary-color5);
+                    border-radius: 20px;
                     color: #141B22;
                     margin-right: 0;
+                    border-radius: 20px;
 
                     i {
                         font-size: 20px;
@@ -1192,6 +1195,7 @@ header {
                     &:hover {
                         background-color: transparent;
                         color: var(--primary-color3);
+                        border-radius: 20px;
                     }
                 }
             }
@@ -1234,7 +1238,7 @@ header {
             padding: 42px 36px 42px 0px;
 
             >a {
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 position: relative;
                 font-size: 16px;
                 line-height: 24px;
@@ -1315,7 +1319,7 @@ header {
         li {
             a {
                 display: block;
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
@@ -1366,6 +1370,7 @@ header {
     left: 0;
     bottom: -1px;
     background-color: var(--primary-color5);
+    border-radius: 20px;
     opacity: 0;
     @include transition3;
 }
@@ -1464,7 +1469,7 @@ header {
         >li {
             >a {
                 color: var(--primary-color3);
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 16px;
                 display: inline-block;
@@ -1804,7 +1809,7 @@ header {
         @include flex(center, center);
 
         li {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 14px;
             line-height: 20px;
@@ -1908,6 +1913,7 @@ header {
                 &.btn-next {
                     background-color: var(--primary-color5);
                     border-color: var(--primary-color5);
+                    border-radius: 20px;
 
                     a {
                         color: #141B22;
@@ -1972,6 +1978,7 @@ header {
     &::before {
         z-index: -1;
         background-color: var(--primary-color5);
+        border-radius: 20px;
     }
 
     &::after {
@@ -2073,8 +2080,9 @@ header {
                     height: 100%;
                     padding: 0 35px;
                     background-color: var(--primary-color5);
+                    border-radius: 20px;
                     color: #040B11;
-                    border-radius: 10px;
+                    border-radius: 20px;
 
                     &::before {
                         background-color: transparent;
@@ -2391,13 +2399,14 @@ header {
                 position: absolute;
                 top: 14px;
                 right: 14px;
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 22px;
                 color: #fff;
                 padding: 8px 10px;
                 background-color: var(--primary-color5);
+                border-radius: 20px;
             }
         }
 
@@ -2423,7 +2432,7 @@ header {
             &>span {
                 margin-right: 0px;
                 padding-right: 8px;
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
@@ -2468,7 +2477,7 @@ header {
 
         .btn-readmore {
             display: inline-flex;
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -2542,8 +2551,9 @@ header {
         .category {
             color: var(--primary-color3);
             background-color: var(--primary-color5);
+            border-radius: 20px;
             padding: 8px 10px;
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 14px;
             line-height: 22px;
@@ -2636,7 +2646,7 @@ header {
 
             .name {
                 color: var(--primary-color20);
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
@@ -2711,6 +2721,7 @@ header {
 
                                 color: #fff;
                                 background-color: var(--primary-color5);
+                                border-radius: 20px;
                             }
                         }
 
@@ -2821,6 +2832,7 @@ header {
 
             .tf-button {
                 background-color: var(--primary-color5);
+                border-radius: 20px;
                 color: #fff;
             }
         }
@@ -2976,6 +2988,7 @@ header {
                     &:hover {
                         color: #fff;
                         background-color: var(--primary-color5);
+                        border-radius: 20px;
                     }
                 }
 

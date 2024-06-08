@@ -1,4 +1,4 @@
-import { Poppins, Bakbak_One } from 'next/font/google'
+import { Poppins, Bakbak_One, Noto_Sans } from 'next/font/google'
 import "/public/assets/css/style.css"
 import "/public/assets/css/responsive.css"
 
@@ -8,10 +8,10 @@ const poppins = Poppins({
   variable: "--poppins",
   display: 'swap',
 })
-const bakbak = Bakbak_One({
-  weight: ['400'],
+const notosans = Noto_Sans({
+  weight: ['700'],
   subsets: ['latin'],
-  variable: "--bakbak",
+  variable: "--notosans",
   display: 'swap',
 })
 
@@ -23,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
       <html lang="en">
-      <body className={`${poppins.variable} ${bakbak.variable} body header-fixed`}>{children}</body>
+      <body className={`${poppins.variable} ${notosans.variable} body header-fixed`}>{children}</body>
       </html>
   )
 }
