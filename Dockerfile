@@ -9,16 +9,11 @@ COPY package.json yarn.lock ./
 # Install yarn and project dependencies
 RUN yarn install
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-
 # Copy the rest of the project files to the working directory
 COPY . .
 # RUN yarn build
-RUN mkdir .next
-RUN chown nextjs:nodejs .next
 
-USER nextjs
+# USER nextjs
 
 # Start the app on port 3000
 EXPOSE 3000
