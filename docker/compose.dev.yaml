@@ -1,0 +1,15 @@
+version: '2.3'
+
+services:
+  frontend:
+    container_name: dev-abstraction-landing-page-fe
+    image: abstraction-landing-page-fe:latest
+    command: yarn dev
+    ports:
+      - "6789:3000"
+    volumes:
+      - ..:/app/
+    env_file:
+      - dev.env
+    environment:
+      TZ: "Asia/Ho_Chi_Minh"
