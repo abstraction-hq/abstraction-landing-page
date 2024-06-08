@@ -11,7 +11,7 @@
 --------------------------------------------------*/
 .tf-button {
     display: inline-block;
-    font-family: 'Bakbak One';
+    font-family: 'Euclid Circular B Semibold';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -115,7 +115,7 @@
     }
 
     .content {
-        font-family: 'Bakbak One';
+        font-family: 'Euclid Circular B Semibold';
         font-weight: 400;
         font-size: 56px;
         line-height: 68px;
@@ -904,7 +904,7 @@
     }
 
     .price {
-        font-family: 'Bakbak One';
+        font-family: 'Euclid Circular B Semibold';
         font-weight: 400;
         font-size: 36px;
         line-height: 44px;
@@ -986,6 +986,7 @@
                     background-color: var(--primary-color5);
                     color: #141B22;
                     border-color: var(--primary-color5);
+                    border-radius: 20px;
                 }
 
             }
@@ -1012,7 +1013,7 @@
             height: 108px;
             background: var(--primary-color25);
             color: var(--primary-color14);
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 56px;
             line-height: 68px;
@@ -1020,7 +1021,7 @@
         }
 
         .countdown__label {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
@@ -1045,7 +1046,7 @@
                 content: ":";
                 right: -6px;
                 position: absolute;
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 36px;
                 line-height: 44px;
@@ -1258,7 +1259,7 @@
         margin-bottom: 11.5px;
 
         .widget-title {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
@@ -1362,6 +1363,7 @@
             input:checked~.btn-checkbox {
                 background-color: var(--primary-color5);
                 border: 1px solid var(--primary-color5);
+                border-radius: 20px;
 
                 &::after {
                     display: flex;
@@ -1441,7 +1443,7 @@
                     margin-right: 0;
                     border: none;
                     color: #21E786;
-                    font-family: 'Bakbak One';
+                    font-family: 'Euclid Circular B Semibold';
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 22px;
@@ -2309,7 +2311,7 @@
 
         & .content {
             & a {
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 24px;
                 text-transform: capitalize;
@@ -2346,7 +2348,7 @@
             top: -13px;
             left: 50%;
             transform: translateX(-50%);
-            font-family: var(--bakbak);
+            font-family: var(--notosans);
             font-weight: 400;
             font-size: 80px;
             color: #21E786;
@@ -2356,7 +2358,7 @@
 
         & h3 {
             position: relative;
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 24px;
             text-transform: uppercase;
@@ -2383,7 +2385,7 @@
                 position: absolute;
                 top: -13px;
                 left: 40px;
-                font-family: var(--bakbak);
+                font-family: var(--notosans);
                 font-weight: 400;
                 font-size: 80px;
                 opacity: 0.3;
@@ -2395,7 +2397,7 @@
 
             & h3 {
                 position: relative;
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 24px;
                 text-transform: uppercase;
@@ -2507,7 +2509,7 @@
 
         & .toggle-title {
             position: relative;
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 24px;
             padding-right: 30px;
@@ -2689,7 +2691,7 @@
             }
 
             & .title {
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 24px;
                 text-transform: capitalize;
@@ -2802,7 +2804,7 @@
 
         .content {
             & .title {
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 24px;
                 text-transform: capitalize;
@@ -2919,7 +2921,7 @@
             margin-left: 80px;
 
             & h3 {
-                font-family: 'Bakbak One';
+                font-family: 'Euclid Circular B Semibold';
                 font-weight: 400;
                 font-size: 36px;
                 text-transform: uppercase;
@@ -2968,7 +2970,7 @@
         cursor: pointer;
 
         & h5 {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 20px;
             text-transform: uppercase;
@@ -3195,7 +3197,7 @@
     }
 
     & h2 {
-        font-family: 'Bakbak One';
+        font-family: 'Euclid Circular B Semibold';
         font-weight: 400;
         font-size: 36px;
         text-transform: uppercase;
@@ -3386,7 +3388,7 @@
     z-index: 5;
 
     & h3 {
-        font-family: 'Bakbak One';
+        font-family: 'Euclid Circular B Semibold';
         font-weight: 400;
         font-size: 44px;
         color: var(--primary-color3);
@@ -3420,7 +3422,7 @@
         margin-bottom: 60px;
 
         & h3 {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 44px;
             color: var(--primary-color3);
@@ -3453,7 +3455,7 @@
         margin-bottom: 67px;
 
         & h3 {
-            font-family: 'Bakbak One';
+            font-family: 'Euclid Circular B Semibold';
             font-weight: 400;
             font-size: 44px;
             color: var(--primary-color3);

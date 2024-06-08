@@ -7,12 +7,13 @@
 --------------------------------------------------*/
 .tf-button {
     display: inline-block;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #141B22;
     background-color: var(--primary-color5);
+    border-radius: 20px;
     padding: 18px 36px;
     border: 2px solid transparent;
     position: relative;
@@ -114,7 +115,7 @@
 }
 
 .tf-counter .content {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 56px;
     line-height: 68px;
@@ -998,7 +999,7 @@
 }
 
 .tf-item-detail-inner .price {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
@@ -1080,6 +1081,7 @@
 .collection .group-btn-nav .button-collection-prev:hover::after {
     background-color: var(--primary-color5);
     color: #141B22;
+    border-radius: 20px;
     border-color: var(--primary-color5);
 }
 
@@ -1107,7 +1109,7 @@
     height: 108px;
     background: var(--primary-color25);
     color: var(--primary-color14);
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 56px;
     line-height: 68px;
@@ -1115,7 +1117,7 @@
 }
 
 .countdown .countdown__item .countdown__label {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -1136,7 +1138,7 @@
     content: ":";
     right: -6px;
     position: absolute;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
@@ -1353,7 +1355,7 @@
 }
 
 .sidebar.sidebar-collection .widget .widget-title {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -1462,6 +1464,7 @@
 .sidebar.sidebar-collection .widget.widget-accordion input:checked~.btn-checkbox {
     background-color: var(--primary-color5);
     border: 1px solid var(--primary-color5);
+    border-radius: 20px;
 }
 
 .sidebar.sidebar-collection .widget.widget-accordion input:checked~.btn-checkbox::after {
@@ -1541,7 +1544,7 @@
     margin-right: 0;
     border: none;
     color: #21E786;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -1893,6 +1896,8 @@
     position: relative;
     z-index: 2;
     width: 258px;
+    margin-bottom: 40px;
+    margin-top: -40px;
     margin-left: 300px;
 }
 
@@ -2408,7 +2413,7 @@
 }
 
 .tf-testimonial .author-tes .content a {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     text-transform: capitalize;
@@ -2448,7 +2453,7 @@
     top: -13px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 80px;
     color: #21E786;
@@ -2462,7 +2467,7 @@
 
 .tf-step .step-title h3 {
     position: relative;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     text-transform: uppercase;
@@ -2490,7 +2495,7 @@
     position: absolute;
     top: -13px;
     left: 40px;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 80px;
     opacity: 0.3;
@@ -2506,7 +2511,7 @@
 
 .tf-step.style2 .step-title h3 {
     position: relative;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     text-transform: uppercase;
@@ -2621,7 +2626,7 @@
 
 .tf-flat-accordion2 .flat-toggle2 .toggle-title {
     position: relative;
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     padding-right: 30px;
@@ -2818,7 +2823,7 @@
 }
 
 .tf-roadmap .roadmap-box .content .title {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     text-transform: capitalize;
@@ -2939,7 +2944,7 @@
 }
 
 .tf-roadmap.style2 .roadmap-box-2 .content .title {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 24px;
     text-transform: capitalize;
@@ -3028,7 +3033,7 @@
 }
 
 .tf-roadmap-style-thumb .content-rm-thumb .content-right h3 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 36px;
     text-transform: uppercase;
@@ -3075,7 +3080,7 @@
 }
 
 .sl-roadmap3 .thumb-rm h5 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 20px;
     text-transform: uppercase;
@@ -3299,7 +3304,7 @@
 }
 
 .sign-in-form h2 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 36px;
     text-transform: uppercase;
@@ -3486,7 +3491,7 @@
 }
 
 .title-ss h3 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 44px;
     color: var(--primary-color3);
@@ -3521,7 +3526,7 @@
 }
 
 .tf-about-ss .title-ss h3 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 44px;
     color: var(--primary-color3);
@@ -3552,7 +3557,7 @@
 }
 
 .tf-work-ss .title-ss h3 {
-    font-family: var(--bakbak);
+    font-family: var(--notosans);
     font-weight: 400;
     font-size: 44px;
     color: var(--primary-color3);

@@ -33,20 +33,17 @@ export default function Slider() {
                                                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                                                                     ' Abs Wallet',
                                                                     1000,
-                                                                    ' Abs Researcher',
-                                                                    1000,
                                                                 ]}
                                                                 wrapper="span"
                                                                 speed={50}
-                                                                style={{fontSize: 70, display: 'inline-block', marginLeft: "15px" }}
+                                                                style={{fontSize: 62, display: 'inline-block', marginLeft: "15px" }}
                                                                 repeat={Infinity}
                                                                 className="cd-words-wrapper ms-3">
                                                             </TypeAnimation>
                                                         </span>
                                                     </h1>
-                                                    <h1 className="heading"> Explore NFT Collection </h1>
-                                                    <p className="sub-heading">We are the best way to check the rarity of
-                                                        NFT collection</p>
+                                                    <h1 className="heading">Application World </h1>
+                                                    <p className="sub-heading">Welcome to Abstraction Wallet</p>
                                                     <div className="counter-wrap">
                                                         <div className="tf-counter">
                                                             <div className="content">
