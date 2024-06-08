@@ -1451,7 +1451,7 @@
 
 .sidebar.sidebar-collection .widget.widget-accordion .btn-checkbox::after {
     content: "\e921";
-    font-family: "binasea";
+    font-family: "font-awesome";
     font-size: 10px;
     left: 2px;
     top: 0px;
