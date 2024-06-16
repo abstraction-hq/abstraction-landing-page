@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-conic text-white">
       <nav className="flex items-center justify-between p-6 shadow-md">
-        <img src="/assets/icon.png" alt="Logo" className="h-12 w-auto" />
+        <img src="/assets/logo.png" alt="Logo" className="h-8 w-auto" />
         <div className="space-x-10">
           <a href="#" className="hover:text-gray-300">
             Home
