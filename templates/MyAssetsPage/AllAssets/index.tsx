@@ -7,6 +7,7 @@ import Icon from "@/components/Icon";
 import { allAssets } from "@/mocks/assets";
 import Tabs from "@/components/Tabs";
 import {useState} from "react";
+import Select from "@/components/Select";
 
 
 const typeItems = [
@@ -34,8 +35,8 @@ const AllAssets = ({}: AllAssetsProps) => {
     const [type, setType] = useState(typeItems[0]);
 
     return (
-        <Card className="grow" tooltip="Tooltip all assets">
-            <div className="flex -mt-8 mb-4 md:hidden">
+        <Card className="grow" title={'All assets'} tooltip="Tooltip all assets">
+            <div className="flex mb-4 md:hidden">
                 <Tabs
                     className="mr-auto"
                     items={typeItems}
@@ -45,6 +46,12 @@ const AllAssets = ({}: AllAssetsProps) => {
                 <button className="btn-secondary shrink-0 ml-6 min-w-[8.8rem] h-10">
                     Clear all
                 </button>
+                <Select
+                    className="hidden -mb-2 md:block"
+                    value={type}
+                    onChange={setType}
+                    items={typeItems}
+                />
             </div>
             <div className="mt-5 -mx-6 md:-mx-4">
                 <table className="w-full">
