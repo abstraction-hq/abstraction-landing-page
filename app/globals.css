@@ -35,7 +35,7 @@
     }
 
     :root[data-theme="dark"] {
-        --on-surface-1: #1a1d1f;
+        --on-surface-1: #060D0D;
         --on-surface-2: #272b30;
         --on-surface-3: #313639;
         --on-surface: #222628;
@@ -48,7 +48,7 @@
         --tertiary: #5d6267;
         --white-fixed: #fcfcfc;
         --light: #1a1d1f;
-        --n-8: #111315;
+        --n-8: #0D1414;
         --brand-100: #2a323f;
         --red-100: #6a5550;
         --green-100: rgba(68, 90, 76, 0.57);
