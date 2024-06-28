@@ -5,12 +5,47 @@ import CurrencyFormat from "@/components/CurrencyFormat";
 import Icon from "@/components/Icon";
 
 import { allAssets } from "@/mocks/assets";
+import Tabs from "@/components/Tabs";
+import {useState} from "react";
+
+
+const typeItems = [
+    {
+        id: "0",
+        title: "Crypto",
+    },
+    {
+        id: "1",
+        title: "NFTs",
+    },
+    {
+        id: "2",
+        title: "Defi",
+    },
+    {
+        id: "3",
+        title: "Transactions",
+    },
+];
 
 type AllAssetsProps = {};
 
 const AllAssets = ({}: AllAssetsProps) => {
+    const [type, setType] = useState(typeItems[0]);
+
     return (
-        <Card className="grow" title="All assets" tooltip="Tooltip all assets">
+        <Card className="grow" tooltip="Tooltip all assets">
+            <div className="flex -mt-8 mb-4 md:hidden">
+                <Tabs
+                    className="mr-auto"
+                    items={typeItems}
+                    value={type}
+                    setValue={setType}
+                />
+                <button className="btn-secondary shrink-0 ml-6 min-w-[8.8rem] h-10">
+                    Clear all
+                </button>
+            </div>
             <div className="mt-5 -mx-6 md:-mx-4">
                 <table className="w-full">
                     <thead>
