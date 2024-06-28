@@ -28,7 +28,7 @@ const Layout = ({ title, children }: LayoutProps) => {
         <div
             className={`min-h-screen ${
                 visible
-                    ? "pl-[21.25rem] 2xl:pl-76 xl:pl-20 md:pl-0"
+                    ? "pl-[17.25rem] 2xl:pl-76 xl:pl-20 md:pl-0"
                     : "pl-20 md:pl-0"
             }`}
         >

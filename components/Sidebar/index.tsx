@@ -23,7 +23,7 @@ const Sidebar = ({ className, visible, onClick }: SidebarProps) => {
         <div
             className={`fixed top-0 left-0 bottom-0 z-20 flex flex-col pt-24 bg-theme-on-surface-1 md:pt-20 ${
                 visible
-                    ? "w-[21.25rem] pb-20 2xl:w-76 xl:shadow-depth-1 md:w-full md:pb-0"
+                    ? "w-[18.25rem] pb-20 2xl:w-76 xl:shadow-depth-1 md:w-full md:pb-0"
                     : "w-20 pb-[9.25rem]"
             } ${className || ""}`}
         >
@@ -37,7 +37,7 @@ const Sidebar = ({ className, visible, onClick }: SidebarProps) => {
                     href="/"
                 >
                     <Image
-                        className="w-10 opacity-100"
+                        className="w-12 opacity-100"
                         src={
                             colorMode === "light"
                                 ? "/images/logo-dark.svg"
@@ -76,7 +76,7 @@ const Sidebar = ({ className, visible, onClick }: SidebarProps) => {
                         />
                     ))}
                 </div>
-                {visible && <UpgradeToPro />}
+                {/*{visible && <UpgradeToPro />}*/}
                 <div className="hidden flex-col mt-6 pt-4 border-t border-theme-stroke space-y-1 md:flex">
                     <NavLink
                         title="Contact support"

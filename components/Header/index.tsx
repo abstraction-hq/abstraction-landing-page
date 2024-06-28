@@ -47,8 +47,8 @@ const Header = ({ title, visible, showMenu, onClickBurger }: HeaderProps) => {
                                     ? "/images/logo-dark.svg"
                                     : "/images/logo-light.svg"
                             }
-                            width={36}
-                            height={36}
+                            width={96}
+                            height={96}
                             alt=""
                         />
                     </Link>
