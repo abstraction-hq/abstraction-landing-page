@@ -25,7 +25,7 @@ export const navigation = [
     },
     {
         id: "4",
-        title: "Neutrade AI",
+        title: "Abstraction Wallet AI",
         icon: "star-plus",
         url: "/chat",
     },
