@@ -16,8 +16,8 @@ const LandingPage = () => {
           >
             Docs
           </a>
-          <a href="#" className="hover:text-gray-300">
-            Contact
+          <a href="mailto:developer@abstraction.world" className="hover:text-gray-300">
+            Contacts
           </a>
         </div>
       </nav>
