@@ -7,12 +7,13 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-conic text-white">
       <nav className="flex items-center justify-between p-6 shadow-md">
-        <img src="/assets/logo.png" alt="Logo" className="h-8 w-auto" />
+        <img src="/assets/icon.png" alt="Logo" className="h-8 w-auto" />
         <div className="space-x-10">
-          <a href="#" className="hover:text-gray-300">
-            Home
-          </a>
-          <a href="#" className="hover:text-gray-300">
+          <a
+            href="https://docs.abstraction.world"
+            className="hover:text-gray-300"
+            target="_blank"
+          >
             Docs
           </a>
           <a href="#" className="hover:text-gray-300">
@@ -45,7 +46,13 @@ const LandingPage = () => {
             Simplify your digital assets with ease and security
           </p>
           <button className="mt-6 px-8 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
-            Join waitlist
+            <a
+              href="https://wallet.abstraction.world"
+              className="hover:text-gray-300"
+              target="_blank"
+            >
+              Open Wallet
+            </a>
           </button>
         </div>
       </section>
